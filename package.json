@@ -1,5 +1,5 @@
 {
-  "name": "energi-assignment",
+  "name": "chain-explorer",
   "private": true,
   "scripts": {
     "dev": "next dev",

@@ -1,34 +1,91 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div id="top"></div>
 
-## Getting Started
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
-First, run the development server:
+<br />
+<div align="center">
+  <a href="https://github.com/yektas/chain-explorer">
+  </a>
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+<br />
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# Chain Explorer
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+</div>
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+<!-- ABOUT THE PROJECT -->
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+<div align="center">
+<img src="https://user-images.githubusercontent.com/9054528/151487389-0381230f-7874-4576-a6c5-306a21abb43b.png" alt="Chain Explorer" style="zoom:60%;" />
 
-## Learn More
+</div>
 
-To learn more about Next.js, take a look at the following resources:
+## [Live Demo](https://chain-explorer.vercel.app/)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## About The Project
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+This application fetches the data from Energi's main network and shows selected parts.
 
-## Deploy on Vercel
+## Built With
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- NextJS
+- Web3.js
+- TailwindCSS
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Features:
+
+- Show latest block number
+- Show chain Id
+- Show total difficulty
+- Show block miner
+- Show total transaction count
+- Show all transactions of the latest block
+- Start / Start data flow
+- Fully responsive
+
+## Installation
+
+1. Clone the repo
+   ```sh
+   git clone https://github.com/yektas/chain-explorer.git
+   ```
+2. Install packages
+
+   ```sh
+   yarn install
+   ```
+
+3. Run the application
+
+   ```sh
+   yarn dev
+   ```
+
+## Contact Me
+
+Sercan Yektas - [@syektas](https://twitter.com/syektas) - ahmetsercanyektas@gmail.com
+
+Portfolio Website - [Portfolio](https://sercanyektas.com)
+
+<!-- ACKNOWLEDGMENTS -->
+
+<p align="right">(<a href="#top">Back to Top</a>)</p>
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+
+[contributors-shield]: https://img.shields.io/github/contributors/yektas/nft-marketplace.svg?style=for-the-badge
+[contributors-url]: https://github.com/yektas/nft-marketplace/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/yektas/nft-marketplace.svg?style=for-the-badge
+[forks-url]: https://github.com/yektas/nft-marketplace/network/members
+[stars-shield]: https://img.shields.io/github/stars/yektas/nft-marketplace.svg?style=for-the-badge
+[stars-url]: https://github.com/yektas/nft-marketplace/stargazers
+[license-shield]: https://img.shields.io/github/license/yektas/nft-marketplace.svg?style=for-the-badge
+[license-url]: https://github.com/yektas/nft-marketplace/blob/master/LICENSE.txt
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://www.linkedin.com/in/sercanyektas/
+[product-screenshot]: https://user-images.githubusercontent.com/9054528/147789460-68952b2d-5cb4-433a-b8c3-b7e578f4af77.png
